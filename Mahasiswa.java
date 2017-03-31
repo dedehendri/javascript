@@ -1,14 +1,9 @@
 public class Mahasiswa {
 	public String nama;
 	
-	public void kuliah () {
-		System.out.println ("kuliah");
+	Mahasiswa(String nama) {
+		this.nama = nama;
 		}
-		
-		public static void main	(String[] args){
-			Mahasiswa rendy= new Mahasiswa();
-			
-			rendy.nama = "Rendy Firmansyah";
-			rendy.kuliah();
-			
-		}}
+
+}
+ 
